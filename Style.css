@@ -1,0 +1,285 @@
+*{
+    margin: auto;
+    padding: auto;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    height: 115px;
+    width: 100%;
+    text-decoration: none;
+    position: fixed;
+ 
+        
+}
+
+nav li{
+    display: inline-block;
+    font-size: medium;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: rgb(35, 54, 48);
+    padding: auto;
+    margin: auto;
+}
+nav a li{
+
+    display: inline-block;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 300;
+    justify-content: space-around;
+}
+
+.list{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: auto;
+    text-decoration: none;
+    transform: transition 0.5s;
+
+}
+.lists{
+    padding: 5px;
+    margin: 5px;
+   
+
+}
+.list a:hover{
+    
+    background-color: crimson;
+    border-radius: 6px;
+    transition: 0.5s;
+    color: #fafafa;
+
+}
+
+.logo {
+    width: 140px;
+    height: 85px;
+    margin-left: 30px;
+    border-radius: 7px;
+    transition: 0.5s ease;
+    
+}
+.logo :hover{
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.name{
+    color: crimson;
+    
+}
+h3{
+    padding:5px;
+    font-weight: 50px;
+    text-align: center;
+    font-style: normal;
+
+}
+h2{
+    margin: 15px 15px;
+    text-align: center;
+}
+.main{
+    padding-top: 150px;
+    scroll-behavior: smooth;
+}
+
+
+.background{
+    background-color: #fafafa;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.PriceN{
+    background-color:crimson;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    text-align: left;
+}
+.Price{
+    text-align: left;
+    
+}
+
+.Shirts{
+    margin: 35px;
+    display: flex;
+    
+}
+.shirt{
+    margin:25px 35px;
+    height: 220px;
+    width: 195px;
+    max-width: 250px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    
+}
+.shirt :hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.3s;
+
+}
+.Shirts :hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.line{
+    color: crimson;
+    width: 1250px;
+    margin-top: 25px
+
+}
+hr{
+    color: crimson;
+    width: 250px;
+    margin-top: 25px;
+}
+button{
+    background-color: crimson;
+    border-radius: 2.5px;
+    border: 5px;
+    cursor: pointer;
+
+}
+input{
+    width: 40px;
+}
+form{
+    margin: 15px 25px;
+    padding: 1px;
+}
+form:hover{
+    transform: none;
+
+}
+label{
+    margin-bottom: 40px;
+}
+.Handbag{
+    margin:30px 25px;
+    height: 270px;
+    width: 230px;
+    max-width: 250px;
+    border: 10px;
+}
+.Addition{
+    display: flex;
+    background-color: #fafafa;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+.p{
+    text-align: center;
+}
+.body{
+    text-align: center;
+
+}
+.links{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.Icon{
+    margin-top: 10px;
+}
+.sidebar{
+    position: fixed;
+    top:0;
+    right:0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: aqua;
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    list-style: none;
+    backdrop-filter: blur(10px);
+    
+
+}
+.menu-button{
+    display: none;
+}
+.Footer{
+    background-color:  #262626;
+    width: auto;
+    height: 250px;
+
+}
+.Footer a{
+    color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-size: 25px;
+    
+}
+.side_bags{
+   
+    margin:30px 25px;
+    height: 270px;
+    width: 230px;
+    max-width: 250px;
+    border: 10px;
+}
+
+@media only screen and ( max-width: 830px){
+.menu-button{
+    display: block;
+}
+.Shirts{
+   display: grid;
+   justify-content: center;
+
+   
+  
+}
+.shirts{
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+h3{
+    padding:5px;
+    font-weight: 50px;
+    text-align: center;
+    font-style: normal;
+    font-size: 20px;
+}
+h2{
+    font-size: 15px;
+}
+
+.hideOnMobile{
+    display: none;
+}
+}
